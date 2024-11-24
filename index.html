@@ -8,86 +8,292 @@
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
+    <div class="header">
+        <div class="container">
             <div class="header__head">
-                <h1></h1>
-                <ul>
+                <h1 class="">
+                    <a href="/">
+                        <img src="./images/ロゴ.png" alt="browncoffee">
+                    </a>
+                </h1>
+                <ul class="header__list">
                     <li>
                         <a href="">about</a>
+                    </li>
+                    <li>
                         <a href="">menu</a>
+                    </li>
+                    <li>
                         <a href="">access</a>
                     </li>
                 </ul>
             </div>
-            <div class="header__body">
-
-            </div>
         </div>
+    </div>
 
         <div class="about">
-            <div class="about__body">
-                <h2>about</h2>
-                <div>
-                    <div>
-                        <img src="" alt="about画像">
-                    </div>
-                    <div>
-                        <p>
-                            何気ない毎日の中で、心安らぐひと時を。<br>
-                            BROWN COFFEEはお客様ひとりひとりに寄り添う、心地よい空間とお食事を提供する憩いの場です。<br>
-                            ともだちと語らうランチ、1人でゆっくり過ごすアフタヌーン。<br>
-                            少し“とくべつ”で、ささやかな幸せを感じられる、あなただけの時間をお過ごしください。
-                        </p>
+            <div class="container">
+                <div class="about__body">
+                    <h2>about</h2>
+                    <div class="about__flex">
+                        <div>
+                            <img src="./images/aboutの写真.png" alt="about画像">
+                        </div>
+                        <div class="about__flex__text">
+                            <p>
+                                何気ない毎日の中で、心安らぐひと時を。<br>
+                                BROWN COFFEEはお客様ひとりひとりに寄り添う、心地よい空間とお食事を提供する憩いの場です。<br>
+                                ともだちと語らうランチ、1人でゆっくり過ごすアフタヌーン。<br>
+                                少し“とくべつ”で、ささやかな幸せを感じられる、あなただけの時間をお過ごしください。
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="menu">
-            <div>
-                <h2>menu</h2>
-                <div class="toast">
-
-                </div>
-                <div class="food">
-
-                </div>
-                <div class="oyatsu">
-
-                </div>
-                <div class="drink">
-
-                </div>
-                <div class="alcohol">
-
+            <div class="container">
+                    <h2 class="menu__head">menu</h2>
+                    <!-- toast -->
+                    <div class="menu__item">
+                        <h3>
+                            <span>toast</span>
+                        </h3>
+                        <div class="menu__content">
+                            <div class="food__image">
+                                <p><img src="./images/cheese-toast.png" alt="チーズトースト"></p>
+                            </div>
+                            <div class="menu__list">
+                                <ul>
+                                    <li class="item">
+                                        <span class="item__name">チーズトースト</span>
+                                        <span class="item__price">¥560</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ハムエッグトースト</span>
+                                        <span class="item__price">¥520</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">クリームチーズトースト</span>
+                                        <span class="item__price">¥560</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">バタートースト</span>
+                                        <span class="item__price">¥370</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">あんバタートースト</span>
+                                        <span class="item__price">¥580</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- food -->
+                    <div class="menu__item">
+                        <h3>
+                            <span>food</span>
+                        </h3>
+                        <div class="menu__content">
+                            <div class="food__image">
+                                <p><img src="./images/meat-pasta.png" alt="ミートパスタ"></p>
+                            </div>
+                            <div class="menu__list">
+                                <ul>
+                                    <li class="item">
+                                        <span class="item__name">ミートパスタ</span>
+                                        <span class="item__price">¥900</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ドライカレー</span>
+                                        <span class="item__price">¥900</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">コンビーフサンドイッチ</span>
+                                        <span class="item__price">¥950</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">カレーツナサンドイッチ</span>
+                                        <span class="item__price">¥850</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ロールキャベツ</span>
+                                        <span class="item__price">¥950</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- oyatsu -->
+                    <div class="menu__item">
+                        <h3>
+                            <span>oyatsu</span>
+                        </h3>
+                        <div class="menu__content">
+                            <div class="food__image">
+                                <p><img src="./images/purin.png" alt="プリン"></p>
+                            </div>
+                            <div class="menu__list">
+                                <ul>
+                                    <li class="item">
+                                        <span class="item__name">プリン</span>
+                                        <span class="item__price">¥500</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ドーナツ</span>
+                                        <span class="item__price">¥190</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">コーヒーゼリーアイス</span>
+                                        <span class="item__price">¥580</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ガトーショコラ</span>
+                                        <span class="item__price">¥470</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">チーズケーキ</span>
+                                        <span class="item__price">¥470</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- drink -->
+                    <div class="menu__item">
+                        <h3>
+                            <span>drink</span>
+                        </h3>
+                        <div class="menu__content">
+                            <div class="food__image">
+                                <p><img src="./images/coffee-zery-float.png" alt="コーヒーゼリーアイス"></p>
+                                <p><img src="./images/caferate.png" alt="カフェラテ"></p>
+                            </div>
+                            <div class="menu__list">
+                                <ul>
+                                    <li class="item">
+                                        <span class="item__name">ドリップコーヒーH/I</span>
+                                        <span class="item__price">¥440</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">クリームコーヒーH/I</span>
+                                        <span class="item__price">¥580</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">カフェラテH/I</span>
+                                        <span class="item__price">¥540</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ヘーゼルナッツラテH/I</span>
+                                        <span class="item__price">¥580</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">キャラメルラテH/I</span>
+                                        <span class="item__price">¥640</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">カフェモカH/I</span>
+                                        <span class="item__price">¥640</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ホワイトモカH/I</span>
+                                        <span class="item__price">¥640</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">カフェモカシェイク</span>
+                                        <span class="item__price">¥750</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">コーヒーゼリーフロート</span>
+                                        <span class="item__price">¥720</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">チャイH/I/I</span>
+                                        <span class="item__price">¥560</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">アイスティーH/I</span>
+                                        <span class="item__price">¥520</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">(レモン・ミルク)</span>
+                                        <span class="item__price"></span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">レモネード</span>
+                                        <span class="item__price">¥600</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">リンゴジュース</span>
+                                        <span class="item__price">¥400</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">オレンジジュース</span>
+                                        <span class="item__price">¥400</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- alcohol -->
+                    <div class="menu__item">
+                        <h3>
+                            <span>alcohol</span>
+                        </h3>
+                        <div class="menu__content">
+                            <div class="food__image">
+                                <p><img src="./images/eylish-coffee.png" alt="アイリッシュコーヒー"></p>
+                            </div>
+                            <div class="menu__list">
+                                <ul>
+                                    <li class="item">
+                                        <span class="item__name">アイリッシュコーヒー</span>
+                                        <span class="item__price">¥750</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">ハイボール</span>
+                                        <span class="item__price">¥600</span>
+                                    </li>
+                                    <li class="item">
+                                        <span class="item__name">グラスビール</span>
+                                        <span class="item__price">¥600</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="access">
-            <h2>access</h2>
-            <div class="access__map">
-
+            <div class="container">
+                <h2 class="access__head">access</h2>
+                <div class="access__map">
+                    <img src="./images/map.png" alt="〒661-0033 兵庫県尼崎市南武庫之荘1丁目6-13KMハイツ">
+                    <p>〒661-0033　兵庫県尼崎市南武庫之荘1丁目6-13KMハイツ</p>
+                </div>
+                <p class="access__desc">
+                    <span class="access__desc__time">9:00~23:00　(土曜のみ9:00~19:00)</span><span class="access__desc__holiday">定休日：月曜</span>
+                </p>
+                <p class="access__tel"><span>TEL：0120-123-456</span></p>
             </div>
-            <p>
-                <span>9:00~23:00</span><span>(土曜のみ9:00~19:00)</span><span>定休日：月曜</span>
-            </p>
-            <p>TEL：0120-123-456</p>
         </div>
-    </div>
 </body>
-<footer>
-    <div>
-        <div>
-            <h1></h1>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <h1><img src="./images/logo.png" alt="ロゴ"></h1>
             <p>browncoffee.company</p>
         </div>
-        <ul>
-            <li><a href="">about</a></li>
-            <li><a href="">menu</a></li>
-            <li><a href="">access</a></li>
-        </ul>
+        <div class="footer__list">
+            <ul>
+                <li><a href="">about</a></li>
+                <li><a href="">menu</a></li>
+                <li><a href="">access</a></li>
+            </ul>
+        </div>
     </div>
 </footer>
 </html>
