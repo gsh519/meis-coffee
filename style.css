@@ -25,6 +25,10 @@ body {
     padding-top: 2.5rem;
 }
 
+.header__head h1 {
+    width: 5rem;
+}
+
 .header__list {
     display: flex;
     list-style: none;
